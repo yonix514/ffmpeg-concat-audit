@@ -1,0 +1,33 @@
+# Sorties de l'outil
+out/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.mp4
+*.mkv
+*.json
+!examples/*.json
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Systeme / editeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Secrets : JAMAIS dans ce depot
+.env
+.env.*
+*.credentials
+identifiants.yaml
+secrets.*
